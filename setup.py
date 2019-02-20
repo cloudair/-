@@ -7,7 +7,7 @@ except ImportError:
 
 with open('requirements.txt') as f:
     required_packages = f.readlines()
-
+#zheli shizhushi
 setup(name='beeswithmachineguns',
       version='0.1.4',
       description='A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).',
